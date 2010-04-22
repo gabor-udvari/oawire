@@ -1,0 +1,16 @@
+#summary How to use OAWire
+#labels Phase-Deploy
+
+= Introduction =
+
+The usage of OAWire is meant to be easy and the same throughout the different browsers. After you read this manual through you will master the usage of the addon.
+
+
+= Details =
+
+  * After a successful [http://code.google.com/p/oawire/wiki/Installation installation] you will have the OpenArena logo in the bottom right corner. You can activate the menu with left clicking the icon.
+  * First you may want to setup the plugin in the Preferences menu. You can either type in or browse the OpenArena executable. You can also type in additional launching arguments like `+set cl_allowdownload 1` for allowing automatic downloading.
+  * After you setup your addon, you can launch OpenArena from the menu just to make sure your path is right.
+  * After a successful setup you can immediately browse the web looking for OpenArena servers. OAWire currently supports the following links:
+    * The OpenArena servers listed on [http://dpmaster.deathmask.net/?game=openarena dpmaster.deathmask.net] (there's an entry for that in the OAWire menu). A dark grey button is added after every server. Click those to join the servers. Every other link is fully functional.
+    * Every website using the OACON protocol (credits go to Dihourar and RMF). If OAWire finds an OACON link, it converts it to the same dark grey button which you can click. Good examples: http://ioclan.site11.com/openarena/serverlist.php (all the links), http://www.oa-revolution.eu/ (link on the top).
