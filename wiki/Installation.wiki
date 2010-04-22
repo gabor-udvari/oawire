@@ -8,7 +8,7 @@ The instructions are browser specific rather than operating system specific. Ple
 
 = Firefox =
 
-# Download the latest .XPI file to your computer.
-# If Firefox is not running, launch it.
-# Either press Ctrl+O and browse to the .XPI file you downloaded or drag and drop the file into your browser window.
-# Install the addon. You can trust the author. Restart your browser when asked to.
+  # Download the latest .XPI file to your computer.
+  # If Firefox is not running, launch it.
+  # Either press Ctrl+O and browse to the .XPI file you downloaded or drag and drop the file into your browser window.
+  # Install the addon. You can trust the author. Restart your browser when asked to.
