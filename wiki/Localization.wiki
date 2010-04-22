@@ -1,0 +1,21 @@
+#summary How to localize OAWire for your language
+#labels Phase-Support
+
+OAWire has full localization support, so you can translate it into your language. You can help translate the plugin! Either add a non-existent language or improve your own native language! Currently supported languages:
+  * English (en-US)
+  * Hungarian (hu-HU)
+
+As for *version 0.1* the following strings are used:
+  * Preferences
+  * About
+  * Path to OpenArena executable
+  * Browse
+  * Additional argument for launching
+  * Server browser
+  * Launch OpenArena
+  * Select a file
+  * Any file
+  * Preferences
+  * Launching OpenArena from the web. Licensed under the terms of the GNU General Public License v2.0.
+
+Just translate the following lines and send me an e-mail with them to the gabor.udvari@gmail.com address. You will be credited for your hard work. You will be asked to be the maintainer for the language, so please consider that before and if you're ready to accept that, include your e-mail address where I can reach you if the strings change.
