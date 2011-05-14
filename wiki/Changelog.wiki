@@ -1,0 +1,13 @@
+#summary Changelog of the project
+#labels Phase-Design
+
+= Version 0.1.1a =
+
+  * Compatible with Firefox 4.0
+  * Italian translation added (thanks Gig)
+
+= Version 0.1 =
+
+  * Initial release
+  * Compatible with Firefox 3.0-3.6
+  * Support for dpmaster and OA Protocol links
