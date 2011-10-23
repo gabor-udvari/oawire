@@ -1,0 +1,11 @@
+# content
+content oawire chrome/content/ contentaccessible=yes
+overlay chrome://browser/content/browser.xul chrome://oawire/content/browser.xul
+
+# register locales
+locale oawire en-US locale/en-US/
+locale oawire hu-HU locale/hu-HU/
+
+# skin
+skin oawire classic/1.0 skin/
+style chrome://global/content/customizeToolbar.xul chrome://oawire/skin/skin.css
