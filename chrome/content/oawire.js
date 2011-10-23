@@ -31,7 +31,7 @@ var OAWire = function(){
 
 			// Run the process.
 			var args = [];
-			if(typeof(ip) != 'undefined') { // If the ip is set, add it to the argument list
+			if(typeof(ip) != "undefined") { // If the ip is set, add it to the argument list
 				args.push("+connect", ip);
 			}
 			args = args.concat(additionalArgument.split(" "));
@@ -82,8 +82,9 @@ var insertButtons = function(content){
 		var elm = links[i];
 		if(site == "dpmaster"){
 			// if we are on dpmaster
-			if(elm.innerHTML != "show" && elm.innerHTML != "hide"){
+			if(elm.innerHTML != "show" && elm.innerHTML != "hide" && elm.href.substring(0, 10) != "javascript"){
 				if(elm.href.substring(0, 53) == "http://dpmaster.deathmask.net/?game=openarena&server="){
+					// Firebug.Console.log(elm.href);
 					createButton(elm, elm.href.substring(53));
 				}
 			}
@@ -102,7 +103,7 @@ var createButton = function(elm, ip, replace){
 	var newA;
 	if(!replace){
 		// create new element
-		newA = document.createElement("A");
+		newA = document.createElement("a");
 		var newT = document.createTextNode("Play!");
 		newA.appendChild(newT);
 		newA.style.marginLeft = "2em";
@@ -110,8 +111,8 @@ var createButton = function(elm, ip, replace){
 		newA = elm;
 	}
 	// setting the attributes
-	newA.href = "#";
-	newA.rel = ip;
+	newA.setAttribute("href", "#");
+	newA.setAttribute("rel", ip);
 	newA.style.fontFamily = "Arial,sans-serif";
 	newA.style.size = "12px";
 	newA.style.textDecoration = "none";
@@ -125,13 +126,13 @@ var createButton = function(elm, ip, replace){
 		// append element in the right place
 		elm.parentNode.insertBefore(newA, elm.nextSibling);
 	}
-	newA.addEventListener('click', function(){
-		OAWire.launchOA(this.rel);
+	newA.addEventListener("click", function(){
+		OAWire.launchOA(this.getAttribute("rel"));
 	}, false);
-	newA.addEventListener('mouseover', function(){
+	newA.addEventListener("mouseover", function(){
 		this.style.background = "#666 url(chrome://oawire/skin/oa_16.png) no-repeat right";
 	}, false);
-	newA.addEventListener('mouseout', function(){
+	newA.addEventListener("mouseout", function(){
 		this.style.background = "#333 url(chrome://oawire/skin/oa_16.png) no-repeat right";
 	}, false);
 
