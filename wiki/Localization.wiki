@@ -4,8 +4,9 @@
 OAWire has full localization support, so you can translate it into your language. You can help translate the plugin! Either add a non-existent language or improve your own native language! Currently supported languages:
   * English (en-US)
   * Hungarian (hu-HU)
+  * Italian (it-IT)
 
-As for *version 0.1* the following strings are used:
+As for *version 0.1.2* the following strings are used:
   * Preferences
   * About
   * Path to OpenArena executable
