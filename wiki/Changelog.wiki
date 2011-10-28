@@ -1,5 +1,5 @@
 #summary Changelog of the project
-#labels Phase-Design
+#labels Phase-Design,Featured
 
 = Version 0.1.3 =
   * Compatible with Firefox 3.5 - 10.0a1
