@@ -8,11 +8,11 @@
 	<statusbar id="status-bar">
 		<statusbarpanel id="oawire-statusbar" src="chrome://oawire/skin/oa_16.png" class="statusbarpanel-menu-iconic" tooltiptext="OAWire">
 			<menupopup>
-				<menuitem label="&serverBrowser;" onclick="OAWire.openServerBrowser()" />
-				<menuitem label="&launchOA;" onclick="OAWire.launchOA()" />
+				<menuitem label="&serverBrowser;" onclick="OAWireXUL.openServerBrowser()" />
+				<menuitem label="&launchOA;" onclick="OAWireXUL.launchOA()" />
 				<menuseparator />
-				<menuitem label="&preferences;" onclick="OAWire.openPreferences()" />
-				<menuitem label="&about;" onclick="OAWire.openAbout()" />
+				<menuitem label="&preferences;" onclick="OAWireXUL.openPreferences()" />
+				<!-- <menuitem label="&about;" onclick="OAWireXUL.openAbout()" /> -->
 			</menupopup>
 		</statusbarpanel>
 	</statusbar>
