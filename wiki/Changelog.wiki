@@ -1,6 +1,12 @@
 #summary Changelog of the project
 #labels Phase-Design
 
+= Version 0.1.3 =
+  * Compatible with Firefox 3.5.* - 10.0a1
+  * Fixed backward compatibility with FF 3.5 and 3.6
+  * IPv6 support
+  * Code cleanup and security fix
+
 = Version 0.1.2 =
   * Compatible with Firefox 4.0.* - 7.0.*
 
