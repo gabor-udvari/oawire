@@ -1,8 +1,0 @@
-<!ENTITY preferences "Preferences">
-<!ENTITY about "About">
-<!ENTITY pathToOA "Path to OpenArena executable">
-<!ENTITY browse "Browse">
-<!ENTITY addArgument "Additional argument for launching">
-
-<!ENTITY serverBrowser "Server browser">
-<!ENTITY launchOA "Launch OpenArena">

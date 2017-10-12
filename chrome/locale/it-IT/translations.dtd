@@ -1,8 +1,0 @@
-<!ENTITY preferences "Preferenze">
-<!ENTITY about "Informazioni su OAWire">
-<!ENTITY pathToOA "Percorso dell'eseguibile di OpenArena">
-<!ENTITY browse "Sfoglia">
-<!ENTITY addArgument "Parametri di avvio addizionali">
-
-<!ENTITY serverBrowser "Elenco dei server">
-<!ENTITY launchOA "Avvia OpenArena">

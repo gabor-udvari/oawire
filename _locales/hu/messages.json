@@ -1,0 +1,51 @@
+{
+  "extensionAbout": {
+    "message": "OpenArena indítása a webről. A GNU General Public License v2.0 feltételei szerint használható.",
+    "description": "Short description for the extension."
+  },
+
+  "preferences": {
+    "message": "Beállítások",
+    "description": "Label for preferences."
+  },
+
+  "anyFile": {
+    "message": "Minden fájl",
+    "description": "Type selection label for any file."
+  },
+
+  "selectFile": {
+    "message": "Fájl kiválasztása",
+    "description": "Title for the file browse window."
+  },
+
+  "about": {
+    "message": "Névjegy",
+    "description": "Label for the About button."
+  },
+
+  "pathToOA": {
+    "message": "Az OpenArena indító útvonala",
+    "description": "Label for the OA executable browsing form."
+  },
+
+  "browse": {
+    "message": "Tallózás",
+    "description": "Label for the file browse button."
+  },
+
+  "addArgument": {
+    "message": "További indítási argumentumok",
+    "description": "Label for the additional arguments input field."
+  },
+
+  "serverBrowser": {
+    "message": "Szerver tallózó",
+    "description": "Button label for opening the dpmaster URL."
+  },
+
+  "launchOA": {
+    "message": "OpenArena indítása",
+    "description": "Button label for launching OpenArena."
+  }
+}

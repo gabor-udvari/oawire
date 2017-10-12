@@ -1,0 +1,51 @@
+{
+  "extensionAbout": {
+    "message": "Avvio di OpenArena dal web. Disponibile sotto i termini della licenza GNU General Public License v2.0.",
+    "description": "Short description for the extension."
+  },
+
+  "preferences": {
+    "message": "Preferenze",
+    "description": "Label for preferences."
+  },
+
+  "anyFile": {
+    "message": "Tutti i file",
+    "description": "Type selection label for any file."
+  },
+
+  "selectFile": {
+    "message": "Seleziona un file",
+    "description": "Title for the file browse window."
+  },
+
+  "about": {
+    "message": "Informazioni su OAWire",
+    "description": "Label for the About button."
+  },
+
+  "pathToOA": {
+    "message": "Percorso dell'eseguibile di OpenArena",
+    "description": "Label for the OA executable browsing form."
+  },
+
+  "browse": {
+    "message": "Sfoglia",
+    "description": "Label for the file browse button."
+  },
+
+  "addArgument": {
+    "message": "Parametri di avvio addizionali",
+    "description": "Label for the additional arguments input field."
+  },
+
+  "serverBrowser": {
+    "message": "Elenco dei server",
+    "description": "Button label for opening the dpmaster URL."
+  },
+
+  "launchOA": {
+    "message": "Avvia OpenArena",
+    "description": "Button label for launching OpenArena."
+  }
+}

@@ -1,0 +1,34 @@
+{
+
+  "manifest_version": 2,
+  "name": "OAWire",
+  "version": "0.2.0",
+
+  "description": "Browser plugins for a web based OpenArena gaming experience",
+
+  "default_locale": "en",
+
+  "icons": {
+    "48": "icons/oa-48.png",
+    "96": "icons/oa-96.png",
+    "128": "icons/oa-96.png"
+  },
+
+  "permissions": [
+        "activeTab"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://dpmaster.deathmask.net/?game=openarena*"],
+      "js": ["js/oawire.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/oa-48.png",
+    "default_title": "OAWire",
+    "default_popup": "popup/oawire.html"
+  }
+
+}

@@ -1,8 +1,0 @@
-<!ENTITY preferences "Beállítások">
-<!ENTITY about "Névjegy">
-<!ENTITY pathToOA "Az OpenArena indító útvonala">
-<!ENTITY browse "Tallózás">
-<!ENTITY addArgument "Ráadás indítási argumentum">
-
-<!ENTITY serverBrowser "Szerver tallózó">
-<!ENTITY launchOA "OpenArena indítása">
